@@ -54,10 +54,48 @@
         @keyframes changetext{
           0% { content:"Lucy!"; }
           25% { content:"루시!"; }
-          50% { content:"nà!"; }
+          50% { content:"Na!"; }
           75% { content: "📒🍃!"; }
           100% { content: "Lucy!"; }
         }
+          /* Your existing CSS here */
+
+  /* CSS for the transition effect */
+  .transition-button {
+      background-color: #734214; /* Initial background color (black) */
+      color: #fff; /* Initial text color (white) */
+      transition: background-color 0.3s; /* Transition the background color over 0.3 seconds */
+  }
+
+  .shc-transition-button:hover {
+      background-color:  #E0B76F; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
+
+  .aut-transition-button:hover {
+      background-color:  #5E87E4; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
+
+  .re-mint-transition-button:hover {
+      background-color:  #97CCE8; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
+
+  .bakery-transition-button:hover {
+      background-color:  #F6C3CA; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
+
+  .np-transition-button:hover {
+      background-color:  #BE635F; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
+
+  .pers-transition-button:hover {
+      background-color:  #98BB94; /* New background color (green) on hover #98BB94 */ 
+      color: #fff; /* Text color remains white on hover */
+  }
        </style>
   </head>
 
@@ -89,6 +127,10 @@
 
       <br>
       <br>
+      <br>
+      <br>
+      <br>
+    
 
       <div class = "d-flex container spacing-section">
         <div class = "row">
@@ -98,10 +140,10 @@
                         <span class="change-content"> </span>    
                     </h2>
                     <p class = "description">
-                        An aspiring designer who is passionate about creating minimalistic and playful experiences.
+                        An aspiring product designer who is passionate about creating minimalistic and playful experiences.
                     </p>
-                    <p class = "description-2">
-                        studying Computer Science @Brown University
+                    <p class="description-2">
+                        Studying Computer Science <span style="color: #734214;">@Brown University</span>
                     </p>
                 </div>
             </div>
@@ -120,8 +162,172 @@
             </div>
         </div>
     </div>
+    <div class="container images-container ">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="shc.html" target="_blank">
+                        <img src="./images/SHC-Thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" >
+                    <div class="personas-design-type">CLIENT PROJECT, WEBSITE REDESIGN, USER RESEARCH</div>
+                    <div class="personas-title mt-2">Improving the Potential Volunteer and Donor Website Experience of Solutions in Hometown Connections</div>
+                    <a href="shc.html" target="_blank" class="btn transition-button shc-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class = "d-flex container justify-content-center align-items-center images-container">
+    <br>
+    <br>
+
+    
+    
+
+
+    <div class="container images-container">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="autinerary.html" target="_blank">
+                        <img src="./images/colab22.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" >
+                    <div class="personas-design-type">PRODUCT SPRINT, PRODUCT DESIGN, UX/UI DESIGN</div>
+                    <div class="personas-title mt-2">Designing the Digital Experience for Autinerary's Groupchat Users</div>
+                    <a href="autinerary.html" target="_blank" class="btn transition-button aut-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="container images-container">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="iterative-design-short.html" target="_blank">
+                        <img src="./images/iterativedesign-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" >
+                    <div class="personas-design-type">CLASS PROJECT, ITERATIVE DESIGN, AND UX/UI DESIGN</div>
+                    <div class="personas-title mt-2">Optimizing the User Experience for Re-mint users</div>
+                    <a href="iterative-design-short.html" target="_blank" class="btn transition-button re-mint-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="container images-container">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="development.html" target="_blank">
+                        <img src="./images/redevelopment-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" >
+                    <div class="personas-design-type">CLASS PROJECT, FRONT-END DEVELOPMENT, RESPONSIVE DESIGN</div>
+                    <div class="personas-title mt-2">Building a Bakery Web Development Application with React</div>
+                    <a href="development.html" target="_blank" class="btn  transition-button bakery-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="container images-container">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="redesign-short.html" target="_blank">
+                        <img src="./images/redesign-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" >
+                    <div class="personas-design-type">CLASS PROJECT, WEBSITE REDESIGN, RESPONSIVE DESIGN</div>
+                    <div class="personas-title mt-2">Improving the User Experience for New Peking's Chinese Restaurant Website</div>
+                    <a href="redesign-short.html" target="_blank" class="btn transition-button np-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="container images-container">
+        <div class="row">
+            <div class="col-sm-5 mx-4">
+                <div class="content-overlay text-center">
+                    <a href="personas-short.html" target="_blank">
+                        <img src="./images/personas-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-sm-6 d-flex align-items-center">
+                <div class="content-overlay" id="arrow-link">
+                    <div class="personas-design-type">CLASS PROJECT, SERVICE DESIGN, AND UX DESIGN</div>
+                    <div class="personas-title mt-2">Reimagining Sci-Li Printing for Brown University Students</div>
+                    <a href="personas-short.html" target="_blank" class="btn transition-button pers-transition-button mt-2">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+
+    
+   
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <!-- <div class = "d-flex container justify-content-center align-items-center images-container">
         <div class = "row">
             <div class = "col-sm-6 column mb-5">
                     <div class = "content-overlay text-center hover-zoom">
@@ -138,7 +344,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 
     <br>
@@ -162,8 +368,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
+    <br>
+    <br>
     <br>
     <br>
 
@@ -171,17 +379,15 @@
     <div class = " container footer-container ">
         <div class = "row ">
             <div class = "col  text-center ">
-                <h3 class=' titles text'>Interested in learning more?</h3>
+                <h3 class=' titles text'>Interested in Learning More?</h3>
                 <br>
-                <p class = "text">Shoot me an email at lucy_nguyen@brown.edu if you want to learn more about my work! 
-                </p>
-
+                <p class="text">Shoot me an email at <span style="color: #734214">lucy_nguyen@brown.edu</span> if you have any questions, would like to explore my work further, or want to provide feedback. I'm always happy to chat!</p>
                 <p class = "mb-5 text" >Or, get to know me better through  
                         <a href ="https://www.linkedin.com/in/lucy-nguyen-9a5a381bb/" class = 'home-link'> <i class="fa-brands fa-linkedin linkedin">!</i>
                         </a>
                 </p>
 
-                <p class = "footer text text-center"> © 2022 Lucy Nguyen. All rights reserved.
+                <p class = "footer text text-center"> © 2023 Lucy Nguyen. All rights reserved.
                   
                 </p>
             </div>
