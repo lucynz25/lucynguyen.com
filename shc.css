@@ -183,7 +183,8 @@ li {
 
 .bolded-parts {
   font-weight: 600;
-  color: #E0B76F;
+  color: #DDBB77;
+  /* color: #E0B76F; */
 }
 
 .takeaways-title {
@@ -208,6 +209,19 @@ li {
   color: black;
 
 }
+
+.left-align {
+  text-align: left !important;
+}
+.navbar-nav .nav-link:hover {
+  color: #734214; /* Change color on hover */
+}
+
+.navbar-nav .nav-link:active {
+  color: #734214; /* Change color on press/active state */
+  font-weight: bold;
+}
+
 
 
 

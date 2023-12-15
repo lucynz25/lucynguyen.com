@@ -48,7 +48,7 @@
       
         .change-content:after{
          content: '';
-         animation: changetext 10s infinite linear ;
+         animation: changetext 5s infinite linear ;
         }
       
         @keyframes changetext{
@@ -60,6 +60,8 @@
         }
           /* Your existing CSS here */
 
+          /* font-weight: bold; */
+
   /* CSS for the transition effect */
   .transition-button {
       background-color: #734214; /* Initial background color (black) */
@@ -70,38 +72,71 @@
   .shc-transition-button:hover {
       background-color:  #E0B76F; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .shc-transition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
+
 
   .aut-transition-button:hover {
       background-color:  #5E87E4; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .aut-transition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
 
   .re-mint-transition-button:hover {
       background-color:  #97CCE8; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .re-mint-transition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
+
 
   .bakery-transition-button:hover {
       background-color:  #F6C3CA; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .bakery-transition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
+
 
   .np-transition-button:hover {
       background-color:  #BE635F; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .np-transition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
 
   .pers-transition-button:hover {
       background-color:  #98BB94; /* New background color (green) on hover #98BB94 */ 
       color: #fff; /* Text color remains white on hover */
+      font-weight: bold; /* Make text bold on hover state */
   }
+
+  .perstransition-button:active {
+    font-weight: bold; /* Make text bold on active state */
+}
        </style>
   </head>
 
   <body>
     <nav class=" navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#">Lucy Nguyen</a>
+        <a class="navbar-brand" href="index.html">Lucy Nguyen</a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -114,7 +149,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/file/d/1WsuLCNhsYSNNUzP9_hc-VmkH3vfk7cCs/view?usp=sharing">RESUME</a>
+              <a class="nav-link" href="https://drive.google.com/file/d/1nNzjm2SC8-6PsLKk6eAp8t7zW9Xye6Id/view?usp=sharing">RESUME</a>
             </li>
 
             <li class = "nav-item">
@@ -140,7 +175,7 @@
                         <span class="change-content"> </span>    
                     </h2>
                     <p class = "description">
-                        An aspiring product designer who is passionate about creating minimalistic and playful experiences.
+                        An aspiring product designer who is passionate about creating purposeful and playful experiences.
                     </p>
                     <p class="description-2">
                         Studying Computer Science <span style="color: #734214;">@Brown University</span>
@@ -153,7 +188,7 @@
     <div class = "d-flex container section-1 spacing-section arrow-section justify-content-center align-items-center">
         <div class = "row">
             <div class = "col action-down ">
-                <a class = "arrow" id = projects href = '#arrow-link'>
+                <a class = "arrow" id = projects href = '#shc-project'>
                     <p class = "scroll" style = 'color:black'>view my work!</p>
                     <div class = "bounce">
                         <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -166,17 +201,19 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="shc.html" target="_blank">
+                    <div id="shc-project"> </div>
+                    <a href="shc.html" >
                         <img src="./images/SHC-Thumbnail.png" class="content-image rounded" alt="link of the website on an image">
+                        
                     </a>
                 </div>
             </div>
     
             <div class="col-sm-6 d-flex align-items-center">
                 <div class="content-overlay" >
-                    <div class="personas-design-type">CLIENT PROJECT, WEBSITE REDESIGN, USER RESEARCH</div>
+                    <div class="personas-design-type">CLIENT PROJECT, MARKETING REDESIGN, USER RESEARCH</div>
                     <div class="personas-title mt-2">Improving the Potential Volunteer and Donor Website Experience of Solutions in Hometown Connections</div>
-                    <a href="shc.html" target="_blank" class="btn transition-button shc-transition-button mt-2">View Project</a>
+                    <a href="shc.html" class="btn transition-button shc-transition-button mt-2">View Project</a>
                 </div>
             </div>
         </div>
@@ -193,8 +230,8 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="autinerary.html" target="_blank">
-                        <img src="./images/colab22.png" class="content-image rounded" alt="link of the website on an image">
+                    <a href="autinerary.html">
+                        <img src="./images/MacBook.png" class="content-image rounded" alt="link of the website on an image">
                     </a>
                 </div>
             </div>
@@ -203,7 +240,8 @@
                 <div class="content-overlay" >
                     <div class="personas-design-type">PRODUCT SPRINT, PRODUCT DESIGN, UX/UI DESIGN</div>
                     <div class="personas-title mt-2">Designing the Digital Experience for Autinerary's Groupchat Users</div>
-                    <a href="autinerary.html" target="_blank" class="btn transition-button aut-transition-button mt-2">View Project</a>
+                    <a href="autinerary.html" class="btn transition-button aut-transition-button mt-2">View Project</a>
+                    <!-- target="_blank -->
                 </div>
             </div>
         </div>
@@ -217,7 +255,7 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="iterative-design-short.html" target="_blank">
+                    <a href="iterative-design.html">
                         <img src="./images/iterativedesign-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
                     </a>
                 </div>
@@ -227,7 +265,7 @@
                 <div class="content-overlay" >
                     <div class="personas-design-type">CLASS PROJECT, ITERATIVE DESIGN, AND UX/UI DESIGN</div>
                     <div class="personas-title mt-2">Optimizing the User Experience for Re-mint users</div>
-                    <a href="iterative-design-short.html" target="_blank" class="btn transition-button re-mint-transition-button mt-2">View Project</a>
+                    <a href="iterative-design.html" class="btn transition-button re-mint-transition-button mt-2">View Project</a>
                 </div>
             </div>
         </div>
@@ -241,7 +279,7 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="development.html" target="_blank">
+                    <a href="development.html" >
                         <img src="./images/redevelopment-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
                     </a>
                 </div>
@@ -251,7 +289,7 @@
                 <div class="content-overlay" >
                     <div class="personas-design-type">CLASS PROJECT, FRONT-END DEVELOPMENT, RESPONSIVE DESIGN</div>
                     <div class="personas-title mt-2">Building a Bakery Web Development Application with React</div>
-                    <a href="development.html" target="_blank" class="btn  transition-button bakery-transition-button mt-2">View Project</a>
+                    <a href="development.html"  class="btn  transition-button bakery-transition-button mt-2">View Project</a>
                 </div>
             </div>
         </div>
@@ -264,7 +302,7 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="redesign-short.html" target="_blank">
+                    <a href="redesign.html">
                         <img src="./images/redesign-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
                     </a>
                 </div>
@@ -274,7 +312,7 @@
                 <div class="content-overlay" >
                     <div class="personas-design-type">CLASS PROJECT, WEBSITE REDESIGN, RESPONSIVE DESIGN</div>
                     <div class="personas-title mt-2">Improving the User Experience for New Peking's Chinese Restaurant Website</div>
-                    <a href="redesign-short.html" target="_blank" class="btn transition-button np-transition-button mt-2">View Project</a>
+                    <a href="redesign.html"  class="btn transition-button np-transition-button mt-2">View Project</a>
                 </div>
             </div>
         </div>
@@ -288,7 +326,7 @@
         <div class="row">
             <div class="col-sm-5 mx-4">
                 <div class="content-overlay text-center">
-                    <a href="personas-short.html" target="_blank">
+                    <a href="personas.html">
                         <img src="./images/personas-thumbnail.png" class="content-image rounded" alt="link of the website on an image">
                     </a>
                 </div>
@@ -298,34 +336,12 @@
                 <div class="content-overlay" id="arrow-link">
                     <div class="personas-design-type">CLASS PROJECT, SERVICE DESIGN, AND UX DESIGN</div>
                     <div class="personas-title mt-2">Reimagining Sci-Li Printing for Brown University Students</div>
-                    <a href="personas-short.html" target="_blank" class="btn transition-button pers-transition-button mt-2">View Project</a>
+                    <a href="personas.html" class="btn transition-button pers-transition-button mt-2">View Project</a>
                 </div>
             </div>
         </div>
     </div>
 
-    
-   
-
-    
-   
-    
-    
-    
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
 
 
     <br>

@@ -202,3 +202,13 @@ li {
     display:list-item;
   }
 
+  .navbar-nav .nav-link:hover {
+    color: #734214; /* Change color on hover */
+}
+
+.navbar-nav .nav-link:active {
+    color: #734214; /* Change color on press/active state */
+    font-weight: bold;
+}
+
+
